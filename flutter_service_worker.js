@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "63471fb9fb22d84d59c1a28f1d8f98cc",
+const RESOURCES = {"math_trainer/assets/AssetManifest.bin": "63471fb9fb22d84d59c1a28f1d8f98cc",
 "math_trainer/assets/AssetManifest.bin.json": "d2ba6ba94090e331c4f1cfbfb3202083",
 "math_trainer/assets/AssetManifest.json": "79583c4f86faa08ea597e648d19f5e86",
 "math_trainer/assets/assets/background.jpg": "440c94e0f9c5702095ab352a2c60ca07",
@@ -39,9 +39,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "63471fb9fb22d84d59c1a28f1d8f98cc
 "math_trainer/version.json": "c2b7eb608535295f195ba49ff0ec2aa3"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = ["main.dart.js",
+const CORE = ["math_trainer/main.dart.js",
 "math_trainer/index.html",
-"flutter_bootstrap.js",
+"math_trainer/flutter_bootstrap.js",
 "math_trainer/assets/AssetManifest.bin.json",
 "math_trainer/assets/FontManifest.json"];
 
